@@ -236,6 +236,18 @@
 </head>
 
 <body>
+   <button slot="ar-button" id="ar-button">
+      View in your space
+   </button>
+
+   <div id="ar-prompt">
+      <img src="./assets/hand.png">
+   </div>
+
+   <button id="ar-failure">
+      AR is not tracking!
+   </button>
+
    <model-viewer src="./assets/ShopifyModels/baldosa1.glb" poster="./assets/ShopifyModels/Chair.webp"
       max-camera-orbit="auto 80deg 40m" skybox-image='./assets/environments/small_hangar_01_1k.jpg' skybox-height="6m"
       xr-environment alt="A 3D model" id="dimension-demo" ar ar-modes="webxr" ar-scale="fixed"
